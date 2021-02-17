@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+caption {
+	visibility: hidden;
+}
+
+.eventAllDiv div {
+	clear: both;
+	border-bottom: 1px solid #eee;
+	padding: 5px 0;
+	margin: 0;
+	overflow: auto;
+}
+
+.eventAllDiv .eventDiv {
+	border-top: 2px solid #e2e2e2 /* #aacc00 */;
+}
+
+.eventAllDiv .eventDiv {
+	border-bottom: 1px solid silver;
+}
+
+.eventAllDiv label, .eventAllDiv .sp1 {
+	width: 20%;
+	float: left;
+	text-align: right;
+	padding: 3px 15px 0 0;
+	clear: left;
+	font-weight: bold;
+}
+
+.eventAllDiv input[type="file"] {
+	margin: 2px 0;
+}
+
+.center {
+	text-align: center;
+}
+
+.eventDiv .content {
+	margin-left: 200px;
+}
+
+ul.buttons {
+	padding: 10px;
+}

@@ -1,0 +1,25 @@
+줌
+https://us02web.zoom.us/j/6331768360?pwd=azBwSHNDeWtlbVl1cTc0WkVFN0pQUT09
+
+베리즈
+http://192.168.11.32/
+
+API
+https://docs.oracle.com/javase/8/docs/api/index.html
+
+유니윌 온라인강의 사이트 베타버전
+www.easyupclass.com
+
+SqlDeveloper
+http://www.oracle.com/technetwork/developer-tools/sqldeveloper/downloads/index.html
+
+토드(Toad) - Tool
+http://www.toadworld.com/downloads#oracle
+
+학원 
+DESKTOP-KAH7T34
+192.168.11.27
+
+집 
+DESKTOP-AKSIL0N
+192.168.219.102

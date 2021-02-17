@@ -1,0 +1,233 @@
+@charset "UTF-8";
+body {
+  padding: 3%;
+  min-width: 320px;
+  font-family: Lato, NotoSansKR, Apple SD Gothic Neo, Malgun Gothic, sans-serif;
+  font-size: 14px;
+  color: #242424;
+}
+/*등록 버튼*/
+input#button {
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    color: #585656;
+}
+
+/*댓글 수*/
+.book-info-title .number {
+  color: rgb(179, 66, 28);
+  font-weight: 700;
+  margin-left: 4px;
+}
+/*한줄 리뷰 */
+.book-info-title.link {
+  display: block;
+}
+
+.book-info-title {
+  font-weight: 700;
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.book-info-title a {
+  background: url()
+    100% no-repeat;
+  background-size: 24px;
+  display: block;
+}
+a {
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+/*리스트 정렬*/
+.review-list li {
+  display: flex;
+}
+
+.review-list li:first-child {
+  margin-top: 30px;
+}
+
+/*리스트 아바타*/
+.review-list .image {
+  width: 32px;
+  height: 0px;
+  border-radius: 100px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+  display: block;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-right: 8px;
+}
+.review-list .image a {
+  display: block;
+  height: 100%;
+}
+a {
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/*리뷰리스트*/
+.review-list .info {
+  flex: 1;
+  position: relative;
+  line-height: normal;
+}
+/*닉네임*/
+.review-list .nickname {
+  color: #555;
+  font-size: 12px;
+  margin-top: 2px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/*댓글 날짜*/
+.review-list .date {
+  font-size: 10px;
+  color: #a5a5a5;
+  margin-top: 0;
+  display: block;
+  padding-bottom: 2px;
+  line-height: 15px;
+}
+
+/*리뷰 내용*/
+.review-list .cont {
+  color: #555;
+  margin: 4px 0;
+}
+
+pre {
+  font-family: Lato, NotoSansKR, Apple SD Gothic Neo, Malgun Gothic, sans-serif;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+/*이 리뷰가 마음에 드시나요?*/
+.review-list .review-setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*좋아요 버튼*/
+.review-list .review-setting .like-button {
+  background-size: 16px;
+  border: 1px solid #dfdfdf;
+  border-radius: 24px;
+  min-width: 48px;
+  width: auto;
+  height: 24px;
+  font-size: 12px;
+  color: #8b8b8b;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8px;
+}
+.review-list .review-setting .like-button > i {
+  padding-right: 30%;
+}
+
+/*댓글 입력창*/
+.review-container .review-register .register .textarea {
+  border: none;
+  resize: none;
+  flex: 1;
+  height: 22px;
+  color: #555;
+  font-size: 14px;
+  line-height: 22px;
+  outline: none;
+}
+textarea {
+  overflow: auto;
+}
+
+/*리뷰 입력 폼*/
+.review-container .review-register {
+  display: flex;
+  margin-top: 24px;
+}
+.review-container .review-register .register {
+  border: 1px solid #dfdfdf;
+  border-radius: 12px;
+  flex: 1;
+  align-items: center;
+  padding: 8px 8px 8px 16px;
+  min-height: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+textarea {
+  overflow: auto;
+}
+/*리뷰 아바타*/
+.review-container .review-register .image {
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+  display: block;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+/*등록 버튼*/
+.review-container .review-register .register button.disabled {
+  background: #dfdfdf;
+  color: #c1c1c1;
+}
+
+/*한줄리뷰*/
+.cmtFrm .anchorReview .review-bt .gtm-review-2depth {
+    padding: 9px;
+    min-width: 1px;
+}
+button.gtm-review-2depth {
+	    padding: 9px;
+    min-width: 1px;
+}
+
+.review-container .review-register .register button {
+  width: 64px;
+  min-height: 32px;
+  height: 100%;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+[type='submit'],
+button {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+button {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+/*글자 수*/
+.review-container .text-number {
+  text-align: right;
+  margin-right: 8px;
+  color: #8b8b8b;
+  margin-top: 2px;
+}

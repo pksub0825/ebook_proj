@@ -1,0 +1,363 @@
+@media (min-width: 1001px) #wrap.show-top-header .millie-sub-inner .back-component {
+  top: 64px;
+}
+
+@media (min-width: 1001px) .web-mount .back-component .close-button[data-v-54204cd4],
+  .web-mount .back-component.pc-hidden[data-v-54204cd4] {
+  display: none;
+}
+body {
+  padding: 5%;
+  min-width: 320px;
+  font-family: Lato, NotoSansKR, Apple SD Gothic Neo, Malgun Gothic, sans-serif;
+  font-size: 14px;
+  color: #242424;
+}
+/*입력폼*/
+.sub-inner.review-profile .register .textarea, textarea[name="content"] {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    resize: none;
+    height: 56px;
+    color: #555;
+    font-size: 16px;
+    padding: 16px;
+    outline: none;
+        border-color: white;
+}
+/*입력폼*/
+.info .more-area .edit {
+	border: 1px solid #dfdfdf;
+    border-radius: 12px;
+    flex: 1;
+    align-items: center;
+    padding: 8px 8px 8px 16px;
+    min-height: 48px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+/*삭제 a태그*/
+.review-list .info .more-area .btDel,
+ .review-list .info .more-area #btEdit{
+    background: none;
+    border: solid 1px;
+    border-radius: 0;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    min-width: 9em;
+    padding: 0 0.75em;
+    line-height: 3.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*글자 수*/
+.review-container .text-number {
+  text-align: right;
+  margin-right: 8px;
+  color: #8b8b8b;
+  margin-top: 2px;
+}
+/*입력버튼*/
+input#button {
+    background: #dfdfdf;
+    display: block;
+    width: 100%;
+    border: 1px solid #d1cfcf;
+    border-radius: 12px;
+    resize: none;
+    color: #555;
+    font-size: 16px;
+    padding: 0px;
+    outline: none;
+    text-align: center;
+    align-items: center;
+}
+/*입력 박스*/
+.sub-inner.review-profile {
+  display: flex;
+  flex-direction: column;
+}
+.millie-sub-inner .sub-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.line {
+  border-bottom: 12px solid #f7f7f7;
+}
+/*inner frofile*/
+.sub-inner.review-profile .profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sub-inner.review-profile .profile .nickname {
+  font-size: 20px;
+  font-weight: 700;
+}
+/*my Avata*/
+.sub-inner.review-profile .profile .image {
+  width: 60px;
+  height: 0px;
+  border-radius: 100px;
+/*   box-shadow: 0 0 1px rgba(0, 0, 0, 0.25); */
+  display: block;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/*댓글 입력폼*/
+.sub-inner.review-profile .register .textarea,
+ textarea[name="content"]{
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  resize: none;
+  height: 56px;
+  color: #555;
+  font-size: 16px;
+  padding: 16px;
+  outline: none;
+}
+
+textarea {
+  overflow: auto;
+}
+/*우측 하단 글자 수*/
+.sub-inner.review-profile .register .text-number {
+  text-align: right;
+  margin-right: 8px;
+  color: #8b8b8b;
+  margin-top: 2px;
+}
+/*등록 버튼*/
+.sub-inner.review-profile .register button.disabled {
+  background: #dfdfdf;
+  color: #c1c1c1;
+}
+.sub-inner.review-profile .register button {
+  margin-top: 16px;
+  height: 56px;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.sub-inner.review-profile .register button {
+  margin-top: 16px;
+  height: 56px;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 16px;
+}
+/*버튼들 커서*/
+[type='button'],
+[type='reset'],
+[type='submit'],
+button {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+/*리뷰 카운트*/
+.sub-inner.review-detail .review-count {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+/*댓글 리스트*/
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.review-list li {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.review-list .info {
+  flex: 1;
+  position: relative;
+  line-height: normal;
+      padding-left: 30px;
+}
+.sub-inner.review-detail .review-list li {
+  padding: 16px 24px;
+  border-bottom: 1px solid #dfdfdf;
+  margin-top: 0;
+}
+div {
+  display: block;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+/*리스트 아바타*/
+.image_co {
+    padding-right: 26px;
+}
+
+.review-list .image_co {
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+  display: block;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-right: 8px;
+}
+.review-list .image a {
+  display: block;
+  height: 100%;
+}
+
+a {
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+/*닉네임*/
+.review-list .nickname {
+  color: #555;
+  font-size: 12px;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+}
+a {
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+/*닉네임 Best*/
+.review-list .nickname .best {
+  color: #ffb904;
+}
+
+.review-list .nickname strong {
+  position: relative;
+  padding: 0 2px 0 8px;
+  margin-left: 4px;
+}
+b,
+em,
+strong {
+  font-weight: bolder;
+}
+/*닉네임 1등*/
+.review-list .nickname .rank {
+  color: #a451f7;
+}
+
+.review-list .nickname strong {
+  position: relative;
+  padding: 0 2px 0 8px;
+  margin-left: 4px;
+}
+b,
+em,
+strong {
+  font-weight: bolder;
+}
+/*날짜*/
+.review-list .date {
+  font-size: 10px;
+  color: #a5a5a5;
+  margin-top: 0;
+  display: block;
+  padding-bottom: 2px;
+  line-height: 15px;
+}
+/*댓글 내용*/
+.review-list .cont {
+  color: #555;
+  margin: 4px 0;
+}
+pre {
+  font-family: Lato, NotoSansKR, Apple SD Gothic Neo, Malgun Gothic, sans-serif;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+/*이 리뷰가 마음에 드시나요?*/
+.review-list .review-setting {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review-list .review-setting p {
+  color: #a5a5a5;
+  font-size: 12px;
+}
+/*좋아요 버튼*/
+.review-list .review-setting .like-button {
+  background: url()
+    6px no-repeat;
+  background-size: 16px;
+  border: 1px solid #dfdfdf;
+  border-radius: 24px;
+  min-width: 48px;
+  width: auto;
+  height: 24px;
+  font-size: 12px;
+  color: #8b8b8b;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8px;
+}
+
+button {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/*닉네임 일치시 삭제버튼 */
+button.gtm-review-delect, a .btDel {
+   border: 1px solid #dfdfdf; 
+    border-radius: 24px;
+    height: 24px;
+    font-size: 12px;
+    color: #8b8b8b;
+    justify-content: flex-end;
+    padding-right: 8px;
+}

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+input[id*="answer"] {
+	display: none;
+}
+
+input[id*="answer"]+label {
+	display: block;
+	padding: 20px;
+	border: 1px solid lightgray;
+	border-bottom: 0;
+	color: white;
+	font-weight: 900;
+	background-color: rgb(179, 66, 28);
+	cursor: pointer;
+	position: relative;
+}
+
+input[id*="answer"]+label em {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	display: inline-block;
+}
+
+input[id*="answer"]+label+div {
+	max-height: 0;
+	transition: all .35s;
+	overflow: hidden;
+	background: color:rgb(255, 255, 255);
+	font-size: 16px;
+	font-weight: bold;
+}
+
+input[id*="answer"]+label+div p {
+	display: inline-block;
+	padding: 20px;
+}
+
+input[id*="answer"]:checked+label+div {
+	max-height: 170px;
+}
+
+input[id*="answer"]:checked+label em {
+	background-position:
+}
